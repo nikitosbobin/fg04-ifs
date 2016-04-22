@@ -1,6 +1,4 @@
 function Program() {
-    this.canvas;
-    this.ctx;
     this.display;
 }
 

@@ -9,7 +9,7 @@ Program.prototype = {
         this.createFractal();
     },
     createFractal: function(arg) {
-        this.getDragonFractalPoints({ x: 500, y: 400 }, (!!arg && arg.value) || 9000)
+        this.getDragonFractalPoints({ x: 500, y: 400 }, arg || 9000)
             .drawPoints(this.display)
             .saveChanges();
     },
